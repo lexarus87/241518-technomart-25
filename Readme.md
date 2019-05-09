@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Алексей Зудин](https://up.htmlacademy.ru/htmlcss/25/user/241518).
-* Наставник: [Дмитрий Могиль](https://htmlacademy.ru/profile/id398003).
+* Наставник: [Дмитрий Могиль](https://up.htmlacademy.ru/htmlcss/25/user/398003).
 
 ---
 

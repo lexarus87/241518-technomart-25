@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Техномарт</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class"header-top">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/index-logo.svg" width="#" height="#" alt="Техномарт">
+        </a>
+       <p class="search-form">Поиск:</p>
+       <!--Форма поиска-->
+        <div class="bookmarks">
+         <a href="bookmarks.html">Закладки: 0</a>
+       </div>
+       <div class="recycle">
+         <a href="recycle.html">Корзина: 10<a/><!--вопрос открыт...-->
+       </div>
+       <div class="order">
+         <a class="button" href="Order.html">Оформить заказ</a>
+       </div>
+     </div>
+     <div class="header-info">
+       <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+       <section class="contacts">
+        <h3 class="visually-hidden">Контактная информация</h3>
+        <p class="telephone"> +7 (812) 555-05-55 </p>
+        <p class="adress"> г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 </p>
+       </section>
+      </div>
+        <ul class="user-interface">
+          <li class="account-name">Равшан Джамшутович</li> <!--может стоит вынести за рамки списка -->
+          <li class="order-link"><a href="#">Мои заказы</a></li>
+          <li class="account-link"><a href="#">Личный кабинет</a></li>
+        </ul>
+      <nav>
+       <ul class="site-navigation">
+         <li><a href="info.html">Главная</a></li>
+         <li><a href="#">Компания</a></li>
+         <li><a href="catalog.html">Каталог</a></li>
+         <li><a href="#">Новости</a></li>
+         <li><a href="#">Спецпредложения</a></li>
+         <li><a href="#">Доставка</a></li>
+         <li><a href="#">Контакты</a></li>
+       </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class="breadcrums">
+        <li><a href="index.html"></a></li> <!--надо вставлять картинку домика (home)? -->
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="catalog-type.html">Инструмент</a></li>
+        <li class="breadcrums-current">Перфораторы</li> <!--текущая страница-->
+      </ul>
+      <h2 class="page-title">Перфораторы</h2>
+      <section class="filters">
+        <h2 class="visually-hidden">Фильтр товаров</h2> <!--вроде заголовок 2-го уровня-->
+        <!-- тут будет форма-->
+      </section>
+      <section>
+        <h2 class="visually-hidden">Список перфораторов</h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html"> <!--при нажатии идет переход на страницу товара-->
+                <span class="catalog-category">Перфоратор BOSCH</span>   <!-- стоит ли тут поставить тэг <br>? -->
+                <span class="catalog-item-title">BFG 3000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 3000">
+            </a>
+            <p class="old-price">22500 Р.</p>
+            <p class="new-price">15500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 6000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 6000">
+            </a>
+            <p class="old-price">30500 Р.</p>
+            <p class="new-price">25500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 2000</span>
+              </a>
+            </h3>
+<!-- тут возникло несколько вопросов..."купить" это вроде как ссылка на страницу корзины/заказа, "в закладки" - получается кнопка.
+во что обернуть эти ссылки...в тэг р
+еще по макету смущает на картинках вставка "NEW" это отдельный элемент или часть фото товара, если отдельный не знаю как его добавить -->
+            <a class="order-button" href="#"> Купить </a>
+            <a class="button" href="#"> В закладки </a>
+            <p class="new-price">15500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 3000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 3000">
+            </a>
+            <p class="old-price">11500 Р.</p>
+            <p class="new-price">15500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 6000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 6000">
+            </a>
+            <p class="old-price">30500 Р.</p>
+            <p class="new-price">25500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 2000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 2000">
+            </a>
+            <p class="new-price">12500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 3000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 3000">
+            </a>
+            <p class="old-price">11500 Р.</p>
+            <p class="new-price">15500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 6000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 6000">
+            </a>
+            <p class="old-price">30500 Р.</p>
+            <p class="new-price">25500 Р.</p>
+          </li>
+        </ul>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <h3>
+              <a href="catalog-item.html">
+                <span class="catalog-category">Перфоратор BOSCH</span>
+                <span class="catalog-item-title">BFG 2000</span>
+              </a>
+            </h3>
+            <a href="catalog-item.html">
+              <img src="" width="" height="" alt="BOSCH BFG 2000">
+            </a>
+            <p class="new-price">12500 Р.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-top">
+        <img src="img/index-logo.svg" width="#" height="#" alt="Техномарт"> <!--логотип, без ссылки-->
+        <p> г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> +7 (812) 555-05-55</p>
+        <ul class="site-navigation"> <!--можно ли оставить такойже класс, как в навигации в хеадере ? или использовать несколько раз тэг навигации?-->
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="catalog-navigation">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="catalog.html">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom"> <!--class="footer-contacts" лучше ?-->
+        <p class="footer-copyright"> © 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <div class="footer-social">
+          <ul>
+            <li><a class="social-button" href="#">Вконтакте</a></li>
+            <li><a class="social-button" href="#">Фейсбук</a></li>
+            <li><a class="social-button" href="#">Инстаграм</a></li>
+          </ul>
+        </div>
+        <p class="contact-email">Обратная связь:</p><br>
+        <a href="">mail@htmlacademy.ru</a>
+        <p class="development-site">Разработано -</p> <br>
+        <a href="http://htmlacademy.ru">htmlacademy.ru</a>
+        <!--<div class="contact-email">
+          <p>Обратная связь:</p><br>
+          <a href="">mail@htmlacademy.ru</a>
+        </div>
+        <div class="development-site">
+          <p>Разработано -</p> <br>
+          <a href="http://htmlacademy.ru">htmlacademy.ru</a>
+        </div>   - или так...запутался тут   -->
+      </div>
+    </footer>
+  </body>
+</html>

@@ -3,23 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <style> /*временно, чтобы было видно надписи белым цветом*/
+     body { background: lightgray;}
+    </style>
   </head>
   <body>
     <header class="main-header"> <!--вся шапка сайта-->
       <div class"header-top"> <!-- Верхняя полоса: логотип, поиск, закладки, корзина, кнопка оформления заказа-->
         <a class="main-header-logo" href="index.html"> <!--при нажатии ссылается на главную страницу-->
-          <img src="img/index-logo.svg" width="#" height="#" alt="Техномарт">  <!-- логотит -->
+          <img src="img/logo-technomart.svg" alt="Техномарт">  <!-- красный фон делается стилем ?  -->
         </a>
-       <p class="search-form">Поиск:</p>
+       <div class="search-form">
+         <p> <img src="img/icon-search.svg" alt="Поиск">Поиск: </p> <!--надо ли обертывать рисунок и надпись в тэг р?-->
+       </div>
        <!--Форма поиска-->
         <div class="bookmarks">
-         <a href="bookmarks.html">Закладки: 0</a> <!--тут будут значки с фоном-->
+         <a href="bookmarks.html">
+           <p><img src="img/icon-bookmark.svg" alt="Закладки"> Закладки: 0</p>
+         </a>
        </div>
        <div class="recycle">
-         <a href="recycle.html">Корзина: 0<a/><!--вопрос со значком корзины-->
+         <a href="recycle.html">
+          <p> <img src="img/cart-icon.svg" alt="recycle">Корзина: 0<p> <!--как я понял цвет иконки можно изменить отредактировав сам svg файл?-->
+         <a/>
        </div>
        <div class="order">
-         <a class="button" href="Order.html">Оформить заказ</a> <!--"ссылка", кнопка перехода на страницу заказа-->
+         <a class="button" href="Order.html">Оформить заказ</a>
        </div>
      </div>
      <div class="header-info"> <!--  описание, контакты-->
@@ -73,7 +82,7 @@
         </div>
         <div class="contacts">
           <p>Вы можете забрать товар сами, заехав в наш офис</p>
-          <img src="" width="" height="" alt="Наш адрес"> <!--картинка или интерактивная реализация карты-->
+          <img src="img/map-image.png" width="300px" height="160px" alt="Наш адрес"> <!--картинка или интерактивная реализация карты-->
           <a class="button" href="#">Заблудились? Напишите нам</a> <!--ссылка-->
         </div>
       </section>
@@ -100,9 +109,9 @@
         <p class="footer-copyright"> © 2010–2019 Компания «Техномарт» Все права защищены</p>
         <div class="footer-social">
           <ul>
-            <li><a class="social-button" href="#">Вконтакте</a></li>
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">Инстаграм</a></li>
+            <li><a class="social-button" href="#"><p><img src="img/icon-vk.svg">Вконтакте</p></a></li>
+            <li><a class="social-button" href="#"><p><img src="img/icon-fb.svg">Фейсбук</p></a></li>
+            <li><a class="social-button" href="#"><p><img src="img/icon-insta.svg">Инстаграм</p></a></li>
           </ul>
         </div>
         <div class="contact-email">

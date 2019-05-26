@@ -1,0 +1,137 @@
+body  {
+  margin: 0;
+
+  font-family: "PT Sans Narrow",Arial, sans-serif;
+  font-size:13px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: none;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a{
+  text-decoration: none;
+}
+.main-navigation {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size:17px;
+  color:#ffffff;
+
+  background-color: #32425c;
+  border-bottom: 5px solid #293449;
+}
+
+.site-navigation,
+.catalog-navigation,
+.user-interface {
+  list-style: none;
+}
+
+.site-navigation a,
+.bookmarks a,
+.recycle a,
+.order-button a{
+  color: #ffffff;
+}
+
+.catalog-navigation a {
+  color: #ffd180;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #293449;
+  color: #ffffff;
+  }
+.site-navigation a:active {
+  color: #868c95;
+}
+
+  .user-interface a {
+    color: #000000;
+    text-transform: none;
+    background-color: #ffffff;
+  }
+  .user-interface a:hover,
+  .user-interface a:focus {
+    color: #ee3643;
+  }
+
+.user-interface a:active {
+  color:#b2b2b2;
+}
+
+.user-tools {
+  font-size: 17px;
+  font-family: "Cuprum",Arial, sans-serif;
+  text-transform: none;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.logo a {
+  background-color: #ee3643;
+  border-bottom: 2px solid #b52933;
+}
+
+.order a {
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.order a:focus,
+.order a:hover {
+  background-color: #5fbb2d;
+  color: #ffffff;
+}
+.order a:active{
+  color:#a8c29a;
+  background-color: #518534;
+}
+.main-header {
+  background-color: #f1f5f7;
+}
+
+.header-info h1 {
+font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.about-company h2 {
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  color:#000000;
+}
+
+.contacts .telephone {
+  color: #ee3643;
+  border: 2px solid #ffffff;
+}
+.about-company p {
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 13px;
+
+}
+
+.main-footer {
+
+  background-color: #32425c;
+}
+.main-footer .logo {
+  background-color: #ee3643;
+  border-bottom: 2px solid #b52933;
+}
+
+.footer-contacts {
+  background-color: #293449;
+}
+
+.partner-list {
+  font-size: 18px;
+  font-weight: bold;
+}

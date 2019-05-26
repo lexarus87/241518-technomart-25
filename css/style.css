@@ -73,6 +73,7 @@ a{
 }
 
 .logo a {
+  display: inline-block;
   background-color: #ee3643;
   border-bottom: 2px solid #b52933;
 }

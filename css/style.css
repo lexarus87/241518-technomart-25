@@ -25,11 +25,13 @@ a{
 
 .site-navigation,
 .catalog-navigation,
-.user-interface {
+.user-interface,
+.footer-site-navigation {
   list-style: none;
 }
 
 .site-navigation a,
+.footer-site-navigation a,
 .bookmarks a,
 .recycle a,
 .order-button a{
@@ -40,6 +42,10 @@ a{
   color: #ffd180;
 }
 
+/*.catalog-navigation a:checked {
+  text-decoration: underline;
+}*/
+
 .site-navigation a:hover,
 .site-navigation a:focus {
   background-color: #293449;
@@ -48,7 +54,17 @@ a{
 .site-navigation a:active {
   color: #868c95;
 }
+.footer-site-navigation a:hover,
+.footer-site-navigation a:focus,
+.catalog-navigation a:hover,
+.catalog-navigation a:focus {
+  text-decoration: underline;
+}
+.footer-site-navigation a:active {
+  color:#a4abb4;
+  text-decoration: none;
 
+}
   .user-interface a {
     color: #000000;
     text-transform: none;
@@ -61,6 +77,11 @@ a{
 
 .user-interface a:active {
   color:#b2b2b2;
+}
+
+.logo a:hover,
+.logo a:focus {
+  background-color: #ca2c37;
 }
 
 .user-tools {
@@ -77,6 +98,12 @@ a{
   background-color: #ee3643;
   border-bottom: 2px solid #b52933;
 }
+.footer-top .logo{
+  display: inline-block;
+  background-color: #ee3643;
+  border-bottom: 2px solid #b52933;
+  margin-top: 0;
+}
 
 .order a {
   color: #ffffff;
@@ -92,6 +119,7 @@ a{
   color:#a8c29a;
   background-color: #518534;
 }
+
 .main-header {
   background-color: #f1f5f7;
 }
@@ -100,7 +128,9 @@ a{
 font-family: "Cuprum", Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
+  line-height: 15px;
   color: #ee3643;
+
 }
 
 .about-company h2 {
@@ -116,16 +146,22 @@ font-family: "Cuprum", Arial, sans-serif;
 .about-company p {
   font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
-
+  line-height: 17px;
+}
+.partner-list {
+  list-style: none;
+  line-height: 30px;
 }
 
 .main-footer {
 
+  color: #ffffff;
   background-color: #32425c;
 }
 .main-footer .logo {
   background-color: #ee3643;
   border-bottom: 2px solid #b52933;
+
 }
 
 .footer-contacts {
@@ -135,4 +171,12 @@ font-family: "Cuprum", Arial, sans-serif;
 .partner-list {
   font-size: 18px;
   font-weight: bold;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  color:#ffffff;
+  background-color: #ee3643;
 }

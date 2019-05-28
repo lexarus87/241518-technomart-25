@@ -26,7 +26,8 @@ a{
 .site-navigation,
 .catalog-navigation,
 .user-interface,
-.footer-site-navigation {
+.footer-site-navigation,
+.footer-social {
   list-style: none;
 }
 
@@ -82,6 +83,20 @@ a{
 .logo a:hover,
 .logo a:focus {
   background-color: #ca2c37;
+}
+
+.footer-social a:hover,
+.footer-social a:focus {
+  background-color: #ee3643;
+}
+.contact-data a:hover,
+.contact-data a:focus {
+  text-decoration: underline;
+}
+
+.contact-data a:active {
+  color:#ee3643;
+  text-decoration: none;
 }
 
 .user-tools {
@@ -166,6 +181,18 @@ font-family: "Cuprum", Arial, sans-serif;
 
 .footer-contacts {
   background-color: #293449;
+}
+
+.footer-social a{
+  display: inline-block;
+  background-color: #212a3a;
+}
+
+.contact-data a {
+  color:#e0b976;
+}
+.contact-data {
+line-height: 8px; 
 }
 
 .partner-list {

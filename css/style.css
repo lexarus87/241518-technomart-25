@@ -1,10 +1,10 @@
 body  {
   margin: 0;
 
-  font-family: "PT Sans Narrow",Arial, sans-serif;
-  font-size:13px;
+  font-family: "Cuprum",Arial, sans-serif;
+  font-size:18px;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 24px;
   text-transform: none;
   color: #000000;
 
@@ -15,12 +15,24 @@ a{
   text-decoration: none;
 }
 .main-navigation {
-  font-family: "Cuprum", Arial, sans-serif;
   font-size:17px;
+  line-height: 17px;
   color:#ffffff;
 
   background-color: #32425c;
   border-bottom: 5px solid #293449;
+}
+.bookmarks,
+.recycle,
+.order {
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.footer-site-navigation,
+.catalog-navigation {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .site-navigation,
@@ -55,6 +67,20 @@ a{
 .site-navigation a:active {
   color: #868c95;
 }
+
+.bookmarks a:hover,
+.bookmarks a:focus,
+.recycle a:hover,
+.recycle a:focus {
+  background-color: #212a3a;
+}
+
+.bookmarks a:active,
+.recycle a:active {
+  color:#a2a5a9;
+  background-color: #161d29;
+}
+
 .footer-site-navigation a:hover,
 .footer-site-navigation a:focus,
 .catalog-navigation a:hover,
@@ -85,6 +111,7 @@ a{
   background-color: #ca2c37;
 }
 
+
 .footer-social a:hover,
 .footer-social a:focus {
   background-color: #ee3643;
@@ -112,6 +139,23 @@ a{
   display: inline-block;
   background-color: #ee3643;
   border-bottom: 2px solid #b52933;
+}
+
+.search-field {
+  font-size: 17px;
+  line-height: 18px;
+  color:#ffffff;
+  background-color: #293449;
+  border: none;
+}
+
+.search-field:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.telephone {
+  display: inline-block;
 }
 .footer-top .logo{
   display: inline-block;
@@ -143,7 +187,7 @@ a{
 font-family: "Cuprum", Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
-  line-height: 15px;
+  line-height: 23px;
   color: #ee3643;
 
 }
@@ -151,21 +195,36 @@ font-family: "Cuprum", Arial, sans-serif;
 .about-company h2 {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
+  line-height: 30px;
   color:#000000;
 }
 
 .contacts .telephone {
+  font-size: 21px;
+  line-height: 21px;
   color: #ee3643;
   border: 2px solid #ffffff;
 }
+
+.contacts .adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+.user-interface {
+  font-size: 21px;
+  line-height: 21px;
+}
+
 .about-company p {
   font-family: "PT Sans Narrow", Arial, sans-serif;
   font-size: 13px;
-  line-height: 17px;
+  line-height: 24px;
 }
 .partner-list {
   list-style: none;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .main-footer {
@@ -192,7 +251,7 @@ font-family: "Cuprum", Arial, sans-serif;
   color:#e0b976;
 }
 .contact-data {
-line-height: 8px; 
+line-height: 8px;
 }
 
 .partner-list {
@@ -201,9 +260,12 @@ line-height: 8px;
 }
 
 .button {
-  font: inherit;
+
+  font-size: 14px;
+  line-height: 18px; /* надо ли этот параметр у button прописывать?*/
   text-align: center;
   text-transform: uppercase;
   color:#ffffff;
   background-color: #ee3643;
+  border-radius: 1px;
 }

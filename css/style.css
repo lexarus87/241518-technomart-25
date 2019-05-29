@@ -55,10 +55,6 @@ a{
   color: #ffd180;
 }
 
-/*.catalog-navigation a:checked {
-  text-decoration: underline;
-}*/
-
 .site-navigation a:hover,
 .site-navigation a:focus {
   background-color: #293449;
@@ -87,6 +83,11 @@ a{
 .catalog-navigation a:focus {
   text-decoration: underline;
 }
+
+.catalog-navigation a:active{
+    text-decoration: none;
+}
+
 .footer-site-navigation a:active {
   color:#a4abb4;
   text-decoration: none;
